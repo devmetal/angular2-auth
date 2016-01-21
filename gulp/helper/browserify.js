@@ -13,7 +13,7 @@ module.exports = function(watch) {
   var bundler, rebundle;
 
   bundler = browserify({
-    entries: ['./src/main.js'],
+    entries: ['./frontend/src/main.js'],
     debug: true,
     cache: {},
     packageCache: {},
